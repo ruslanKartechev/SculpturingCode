@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5498f80d1cd25ce4b83598aad8dda3c3, type: 3}
+  m_Name: ScoreData_sample
+  m_EditorClassIdentifier: Assembly-CSharp:General.Data:GameScoreData
+  scoresData:
+    BigStoneBrokenScore: 1
+    StonePieceBrokenScore: 1
+    RockPolishedScore: 1
+    MaxStickersCount: 4
+  thresholdData:
+    MainThreshold: 60
+    Threshold_stage_2: 90

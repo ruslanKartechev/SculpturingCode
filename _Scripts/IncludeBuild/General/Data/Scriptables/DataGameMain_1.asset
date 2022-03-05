@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cab0341047126649a12a342cfe9955a, type: 3}
+  m_Name: DataGameMain_1
+  m_EditorClassIdentifier: 
+  Stages:
+  - stageNumber: 1
+    subStagesHeaders:
+    - HOLD AND MOVE TO MAKE A SCULPTURE
+    stageName: Sculpturing
+    stageTool: {fileID: 4373914438316560669, guid: 8717a87b6a89b4a4f96f23595e966496,
+      type: 3}
+  - stageNumber: 2
+    subStagesHeaders:
+    - HOLD AND MOVE TO CLEAN UP A SCULPTURE
+    stageName: Polishing
+    stageTool: {fileID: 4373914438316560669, guid: 7b47dfa0e4ef1594fb36111066fc2caa,
+      type: 3}
+  - stageNumber: 3
+    subStagesHeaders:
+    - SELECT COLOR
+    - TOUCH TO PAINT
+    stageName: Painting
+    stageTool: {fileID: 4373914438316560669, guid: 87e8dd09b2b81dc48b67e3bfe6168a1c,
+      type: 3}
+  - stageNumber: 4
+    subStagesHeaders:
+    - CHOOSE A STICKER
+    - Place a Sticker
+    stageName: Decorating
+    stageTool: {fileID: 5467268495217164959, guid: e2bce0169223b6a498bcdb80c102bc91,
+      type: 3}
+  toolsData:
+    ColorPaletXangle: -55
+    StickersPaletXangle: -20
+    PaintingOffsetVector: {x: 0.18, y: 0, z: 1}
+    defaultPaletColors:
+    - {r: 1, g: 0.90178066, b: 0.49411762, a: 1}
+    - {r: 0.9056604, g: 0.40583837, b: 0.41662583, a: 1}
+    - {r: 0.31510323, g: 0.9150943, b: 0.3624709, a: 1}
+    - {r: 0.5277024, g: 0.3443396, b: 1, a: 1}
+    defaultStickers:
+    - name: Bow_1
+      model: {fileID: 4842063386628917101, guid: b3adc3b99b9be3544a7f184753fa8508,
+        type: 3}
+    - name: Cool
+      model: {fileID: 6779102944606639140, guid: 6c9375898da153948adef99a060a3049,
+        type: 3}
+    - name: Flower
+      model: {fileID: 3585790850783579551, guid: 9986050fe68e5ad419bb63d3b3b3c865,
+        type: 3}
+    - name: Bow_2
+      model: {fileID: 3184226363357612522, guid: ab64c52d42171ce4a8b06f065375c807,
+        type: 3}
+    - name: Whirl
+      model: {fileID: 2969175819745632297, guid: c30d8d75763e52d4d87097a06c79c6f9,
+        type: 3}
+    - name: Star
+      model: {fileID: 4042497459580367888, guid: cef743a699a787e45ad4309c891f37ca,
+        type: 3}
+    - name: Shild
+      model: {fileID: 1975611550327120265, guid: 7b6c2de57499b7040977c51bd313c1b6,
+        type: 3}
+    - name: Bondage
+      model: {fileID: 1393796303524288238, guid: cf0d104936b1c1146bd04983afe11c7a,
+        type: 3}
+    - name: Tear
+      model: {fileID: 2167528670630077402, guid: ea85575bb6e02804a8f0b09a5a0da772,
+        type: 3}
+    - name: InJan
+      model: {fileID: 4094736183107712974, guid: 44609c8d8f8de9449aecc3acb5bdcc9a,
+        type: 3}
+    - name: Crown
+      model: {fileID: 3508204973340847057, guid: 0b0ac0ab4ec35924fba9774ee33b6e7d,
+        type: 3}
+  EditorUIMode: 1
+  IsDebug: 1

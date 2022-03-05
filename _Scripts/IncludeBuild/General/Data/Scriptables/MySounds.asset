@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ebe2b55b1a760549ae7d8c43f8a2efb, type: 3}
+  m_Name: MySounds
+  m_EditorClassIdentifier: 
+  soundEffects:
+  - name: Sculpturing
+    volume: 1
+    pitch: 1
+    clip: {fileID: 8300000, guid: a75da8de57599c34eae4957c9a161bb5, type: 3}
+    loopedTime_start: 0
+    loopedTime_end: 0
+  - name: Polishing
+    volume: 1
+    pitch: 1
+    clip: {fileID: 8300000, guid: 5b64e9a087381114aa71efe3c9e6e746, type: 3}
+    loopedTime_start: 0.1
+    loopedTime_end: 0.4
+  - name: Painting
+    volume: 1
+    pitch: 1
+    clip: {fileID: 8300000, guid: e0fe0e51ded2ed9498f928559fdaef41, type: 3}
+    loopedTime_start: 0.6
+    loopedTime_end: 1
+  - name: ButtonPressed
+    volume: 1
+    pitch: 1
+    clip: {fileID: 8300000, guid: 299dfcc647a0da54e85474f6b0b2d7ea, type: 3}
+    loopedTime_start: 0
+    loopedTime_end: 0
+  - name: SelectionMade
+    volume: 1
+    pitch: 1
+    clip: {fileID: 8300000, guid: 8bb8fbdb4d34f4a41a10abd19d384e6a, type: 3}
+    loopedTime_start: 0
+    loopedTime_end: 0
+  - name: Confirmation
+    volume: 1
+    pitch: 1
+    clip: {fileID: 8300000, guid: 1c90754630fc6694492e2d2f65302ef5, type: 3}
+    loopedTime_start: 0
+    loopedTime_end: 0
+  - name: Win
+    volume: 1
+    pitch: 1
+    clip: {fileID: 8300000, guid: e0c66ddda19a46a4b8939f352508b21e, type: 3}
+    loopedTime_start: 0
+    loopedTime_end: 0
+  music:
+  - name: Relax
+    volume: 0.364
+    pitch: 1
+    clip: {fileID: 8300000, guid: d28bed0b5ec643e4184d1348e3cbbaa9, type: 3}
+    loopedTime_start: 0
+    loopedTime_end: 0
+  - name: 
+    volume: 0
+    pitch: 0
+    clip: {fileID: 0}
+    loopedTime_start: 0
+    loopedTime_end: 0
+  - name: 
+    volume: 0
+    pitch: 0
+    clip: {fileID: 0}
+    loopedTime_start: 0
+    loopedTime_end: 0
